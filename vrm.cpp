@@ -48,5 +48,6 @@ int main() {
     Vehicle* motorcycle = new Motorcycle(30.0);
     Vehicle* bicycle = new Bicycle(10.0);
 
+    int rentalDays = 3;
     return 0;
 }
