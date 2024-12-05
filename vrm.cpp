@@ -42,3 +42,11 @@ public:
         return days * dailyRate;
     }
 };
+
+int main() {
+    Vehicle* car = new Car(50.0);
+    Vehicle* motorcycle = new Motorcycle(30.0);
+    Vehicle* bicycle = new Bicycle(10.0);
+
+    return 0;
+}
