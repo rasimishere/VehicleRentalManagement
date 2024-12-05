@@ -49,5 +49,9 @@ int main() {
     Vehicle* bicycle = new Bicycle(10.0);
 
     int rentalDays = 3;
+
+    std::cout << "Car Rental Fee for " << rentalDays << " days: $" << car->calculateRentalFee(rentalDays) << "\n";
+    std::cout << "Motorcycle Rental Fee for " << rentalDays << " days: $" << motorcycle->calculateRentalFee(rentalDays) << "\n";
+    std::cout << "Bicycle Rental Fee for " << rentalDays << " days: $" << bicycle->calculateRentalFee(rentalDays) << "\n";
     return 0;
 }
