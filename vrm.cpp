@@ -53,5 +53,10 @@ int main() {
     std::cout << "Car Rental Fee for " << rentalDays << " days: $" << car->calculateRentalFee(rentalDays) << "\n";
     std::cout << "Motorcycle Rental Fee for " << rentalDays << " days: $" << motorcycle->calculateRentalFee(rentalDays) << "\n";
     std::cout << "Bicycle Rental Fee for " << rentalDays << " days: $" << bicycle->calculateRentalFee(rentalDays) << "\n";
+
+    delete car;
+    delete motorcycle;
+    delete bicycle;
+    
     return 0;
 }
