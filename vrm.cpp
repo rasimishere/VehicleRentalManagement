@@ -18,3 +18,15 @@ public:
         return days * dailyRate;
     }
 };
+
+class Motorcycle : public Vehicle {
+private:
+    double dailyRate;
+
+public:
+    Motorcycle(double rate) : dailyRate(rate) {}
+
+    double calculateRentalFee(int days) const override {
+        return days * dailyRate;
+    }
+};
